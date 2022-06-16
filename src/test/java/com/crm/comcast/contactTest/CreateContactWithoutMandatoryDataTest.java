@@ -4,12 +4,11 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
+import com.crm.comcast.genericUtility.Baseclass1;
 import com.crm.comcast.pomrepository.ContactPage;
 import com.crm.comcast.pomrepository.CreateContactConfirPage;
 import com.crm.comcast.pomrepository.CreateContactPage;
 import com.crm.comcast.pomrepository.Homepage;
-
-import genericUtility.Baseclass1;
 
 public class CreateContactWithoutMandatoryDataTest extends Baseclass1 {
 	@Test(groups={"regressionTest", "SmokeTest"})

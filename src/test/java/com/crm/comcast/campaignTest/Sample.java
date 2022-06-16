@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import genericUtility.Baseclass1;
-@Listeners(genericUtility.ListenersImageClass.class)
+import com.crm.comcast.genericUtility.Baseclass1;
+@Listeners(com.crm.comcast.genericUtility.ListenersImageClass.class)
 public class Sample extends Baseclass1 {
 	@Test
 	public void sample()

@@ -5,12 +5,11 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.crm.comcast.genericUtility.Baseclass1;
 import com.crm.comcast.pomrepository.CampaignPage;
 import com.crm.comcast.pomrepository.CreateCampaignPage;
 import com.crm.comcast.pomrepository.CreateContactConfirPage;
 import com.crm.comcast.pomrepository.Homepage;
-
-import genericUtility.Baseclass1;
 public class CreatCampaignTest extends Baseclass1 {
 	@Test(groups={"regressionTest", "SmokeTest"})
 	public void createcampTest() throws IOException, Throwable 

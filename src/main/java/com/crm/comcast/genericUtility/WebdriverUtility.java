@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 import java.awt.Desktop.Action;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 public interface Constants {
 	String excelpath= "./Excel/Orgnames.xlsx";

@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 import java.time.LocalDateTime;
 import java.util.Date;

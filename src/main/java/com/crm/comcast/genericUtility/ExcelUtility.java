@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 import java.io.File;
 import java.io.FileInputStream;
