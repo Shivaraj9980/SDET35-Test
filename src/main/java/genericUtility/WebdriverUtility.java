@@ -172,7 +172,7 @@ public class WebdriverUtility {
 			 */
 			public void executeJavaScript(WebDriver driver , String javaScript) {
 				JavascriptExecutor js = (JavascriptExecutor)driver;
-				js.executeAsyncScript(javaScript, null);
+				js.executeScript("documents.getElementIdBy(id).value=javaScript");
 			}
 			
 			public void waitAndClick(WebElement element) throws InterruptedException
