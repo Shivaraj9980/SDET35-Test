@@ -4,7 +4,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import genericUtility.WebdriverUtility;
+import com.crm.comcast.genericUtility.WebdriverUtility;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class JavaScriptExecutor {
@@ -22,7 +23,7 @@ public class JavaScriptExecutor {
 
 		js.executeScript("alert('Welcome To WORLD')");
 
-		WebdriverUtility web = new WebdriverUtility();
+WebdriverUtility web = new WebdriverUtility();
 		Thread.sleep(2000);
 		web.swithToAlertWindowAndAccpect(driver, "Welcome To WORLD");
 
