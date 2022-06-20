@@ -3,7 +3,7 @@ package practice;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import genericUtility.ExcelUtility;
+import com.crm.comcast.genericUtility.ExcelUtility;
 
 public class DataProviderWithExcel {
 	public class DataProvidwerTest {

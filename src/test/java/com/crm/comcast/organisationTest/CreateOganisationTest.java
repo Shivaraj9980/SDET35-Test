@@ -7,17 +7,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.crm.comcast.genericUtility.Baseclass1;
+import com.crm.comcast.genericUtility.ExcelUtility;
+import com.crm.comcast.genericUtility.FileUtility;
+import com.crm.comcast.genericUtility.JavaUtility;
+import com.crm.comcast.genericUtility.WebdriverUtility;
 import com.crm.comcast.pomrepository.CreateOrganisationConfirmPage;
 import com.crm.comcast.pomrepository.CreateOrganisationPage;
 import com.crm.comcast.pomrepository.Homepage;
 import com.crm.comcast.pomrepository.LoginPage;
 import com.crm.comcast.pomrepository.OrganisationPage;
 
-import genericUtility.Baseclass1;
-import genericUtility.ExcelUtility;
-import genericUtility.FileUtility;
-import genericUtility.JavaUtility;
-import genericUtility.WebdriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateOganisationTest extends Baseclass1 {

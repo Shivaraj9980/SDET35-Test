@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 import java.awt.Desktop.Action;
 import java.util.Iterator;
@@ -172,7 +172,7 @@ public class WebdriverUtility {
 			 */
 			public void executeJavaScript(WebDriver driver , String javaScript) {
 				JavascriptExecutor js = (JavascriptExecutor)driver;
-				js.executeScript("documents.getElementIdBy(id).value=javaScript");
+				js.executeAsyncScript(javaScript, null);
 			}
 			
 			public void waitAndClick(WebElement element) throws InterruptedException

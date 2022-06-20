@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import genericUtility.WebdriverUtility;
+import com.crm.comcast.genericUtility.WebdriverUtility;
 
 public class CreateContactPage extends WebdriverUtility {
 	WebDriver driver;

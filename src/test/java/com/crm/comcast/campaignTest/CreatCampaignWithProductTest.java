@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.crm.comcast.genericUtility.Baseclass1;
+import com.crm.comcast.genericUtility.ExcelUtility;
 import com.crm.comcast.pomrepository.CampaignConfirmationPage;
 import com.crm.comcast.pomrepository.CampaignPage;
 import com.crm.comcast.pomrepository.CreateCampaignPage;
@@ -12,9 +14,6 @@ import com.crm.comcast.pomrepository.CreateProductPage;
 import com.crm.comcast.pomrepository.Homepage;
 import com.crm.comcast.pomrepository.ProductCreateConfirmationPage;
 import com.crm.comcast.pomrepository.ProductPage;
-
-import genericUtility.Baseclass1;
-import genericUtility.ExcelUtility;
 
 public class CreatCampaignWithProductTest extends Baseclass1 {
 	@Test 

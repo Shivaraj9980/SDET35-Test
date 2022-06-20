@@ -1,4 +1,4 @@
-package genericUtility;
+package com.crm.comcast.genericUtility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
